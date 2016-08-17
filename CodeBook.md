@@ -18,16 +18,25 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 ## Data Processing Tasks ##
 The run_analysis.R script performs the following tasks:
+
 1. Download the files from the given URL.
+
 2. Unzip the files to the respective directory.
+
 3. Reading the training data files (X_train.txt, Y_train.txt and subject_train.txt) from the folder "./UCI HAR Dataset/train" and create data tables.
+
 4. Reading the test data files (X_test.txt, Y_test.txt and subject_test.txt) from the folder "./UCI HAR Dataset/test" and create data tables.
+
 5. Reading the features and activity labels data files (features.txt and activity_labels.txt) from the folder "./UCI HAR Dataset" and create data tables.
 6. Merges the training and test data sets to create one data set.
+
 7. Extracts only the measurement on the mean and standard deviation for each measurement.
+
 8. Uses descriptive activity names to name the activities in the data set.
+
 9. Appropriately labels the data set with descriptive variable names.
-10. From the data set in step 8, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+10. From the data set in step 9, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
 ## About Variables ##
