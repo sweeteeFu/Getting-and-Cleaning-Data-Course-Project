@@ -31,12 +31,12 @@ The run_analysis.R script performs the following tasks:
 
 
 ## About Variables ##
-*x_Train_Data, y_Train_Data, subject_Train_Data, x_Test_Data, y_Test_Data, subject_Test_Data, features and activity_labels contain the data from the downloaded files.
-*final_training_set contains data which is bind from all the training data set (x_Train_Data, y_Train_Data and subject_Train_Date) obtained from the downloaded files.
-*final_test_set contains data which is bind from all the test data set (x_Test_Data, y_Test_Data and subject_Test_Date) obtained from the downloaded files.
-*final_data_set binds all the data rows from the final_training_set and final_test_set
-*final_data_set_colNames is a vector for column names from the final_data_set, which will be used to select the mean() and stddev() columns
-*mean_and_std is a logical vector for defining activityID, subjectID, mean and standard deviation
-*final_data_set contains the data set which fulfills the mean_and_std logical vector
-*final_data_set_with_activity_names merges the final_data_set with the activity_labels data set so as to include descriptive activity names
-*second_tidy_data_set is a tidy data set which contains the relevant average of each variable for each activity and each subject, which will be later stored in a .txt file.  
+* x_Train_Data, y_Train_Data, subject_Train_Data, x_Test_Data, y_Test_Data, subject_Test_Data, features and activity_labels contain the data from the downloaded files.
+* final_training_set contains data which is bind from all the training data set (x_Train_Data, y_Train_Data and subject_Train_Date) obtained from the downloaded files.
+* final_test_set contains data which is bind from all the test data set (x_Test_Data, y_Test_Data and subject_Test_Date) obtained from the downloaded files.
+* final_data_set binds all the data rows from the final_training_set and final_test_set
+* final_data_set_colNames is a vector for column names from the final_data_set, which will be used to select the mean() and stddev() columns
+* mean_and_std is a logical vector for defining activityID, subjectID, mean and standard deviation
+* final_data_set contains the data set which fulfills the mean_and_std logical vector
+* final_data_set_with_activity_names merges the final_data_set with the activity_labels data set so as to include descriptive activity names
+* second_tidy_data_set is a tidy data set which contains the relevant average of each variable for each activity and each subject, which will be later stored in a .txt file.  
